@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Comparador Agrícola</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
+  <div class="container">
+    <h1>🌱 Comparador: Fazenda Sustentável vs Tradicional</h1>
+
+    <div class="cards">
+
+      <div class="card sustentavel">
+        <h2>Fazenda Sustentável</h2>
+
+        <label>Consumo de Água (L):</label>
+        <input type="number" id="aguaS" value="500">
+
+        <label>Uso de Agrotóxicos (%):</label>
+        <input type="number" id="agroS" value="20">
+
+        <label>Emissão de CO₂ (kg):</label>
+        <input type="number" id="co2S" value="150">
+      </div>
+
+      <div class="card tradicional">
+        <h2>Fazenda Tradicional</h2>
+
+        <label>Consumo de Água (L):</label>
+        <input type="number" id="aguaT" value="1000">
+
+        <label>Uso de Agrotóxicos (%):</label>
+        <input type="number" id="agroT" value="80">
+
+        <label>Emissão de CO₂ (kg):</label>
+        <input type="number" id="co2T" value="400">
+      </div>
+
+    </div>
+
+    <button onclick="comparar()">Comparar Impactos</button>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
