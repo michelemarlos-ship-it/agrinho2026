@@ -1,0 +1,1 @@
+este projeto fio feito com htnl,css e 35.durente as aula de programaçã e ia do coleǵio estatual curitiba - paranavai.para o projeto do agrinho 2026 frontend-com html
